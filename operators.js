@@ -1,7 +1,8 @@
 //task 1st Arithmetic Operators
 
-let x = 10;
-let y = 16;
+let x = 5;
+let y = 17;
+
 //addition
 let z = (x + y);
 console.log(z);
@@ -19,7 +20,7 @@ let c = (x / y);
 console.log(c);
 
 //remainder i think it rong  
-let d = (x % y);
+let d = (y % x);
 console.log(d);
 
 // Task 2nd Comparison Operators
@@ -40,7 +41,7 @@ let votingAge= 18;
 
 let canVote = ((age >= votingAge)&&(age > votingAge));
 
-console.log(canVote = "Can vote");
+console.log(canVote);
 
 
 let isStudent = true;
